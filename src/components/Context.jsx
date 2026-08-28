@@ -259,7 +259,7 @@ const router = useRouter();
     }
 
     const verificationNumber = `${Date.now()}E${Math.floor(Math.random() * 1000000000)}`;
-    const source = "Bees Interior Website";
+    const source = "Kingsword bag craft Website";
     const purpose = "Purchase of Product";
 
     const initialTransaction = {
@@ -271,7 +271,7 @@ const router = useRouter();
       createdAt: new Date().toISOString(),
       paymentMethod: "Paystack",
       currency: currency,
-      subaccount: "ACCT_7k2sd8z7pxgyce9",
+      subaccount: "ACCT_q36didxykwe4cv6",
       bearer: "subaccount",
       metadata: {
         custom_payment_verification_number: verificationNumber,
@@ -306,7 +306,7 @@ const router = useRouter();
         email,
         firstname: firstName,
         lastname: lastName,
-        subaccount: "ACCT_7k2sd8z7pxgyce9",
+        subaccount: "ACCT_q36didxykwe4cv6",
       bearer: "subaccount",
         metadata: {
           custom_payment_verification_number: verificationNumber,
