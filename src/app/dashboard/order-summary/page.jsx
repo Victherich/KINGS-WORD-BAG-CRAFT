@@ -156,7 +156,7 @@ const handleRemovePromo = () => {
       return;
     }
 
-    const uniqueOrderNumber = `BEES-${Date.now().toString().slice(-6)}${Math.floor(Math.random() * 900 + 100)}`;
+    const uniqueOrderNumber = `ORDER-${Date.now().toString().slice(-6)}${Math.floor(Math.random() * 900 + 100)}`;
 
     const orderPayload = {
       orderNumber: uniqueOrderNumber,
@@ -244,7 +244,7 @@ const handleRemovePromo = () => {
       const buyerEmail = currentUser?.email || userData?.email || '';
       // const sellerEmail = 'victorndu393@gmail.com'; // Replace with your seller destination email
         const sellerEmail = 'admin@kingswordcraft.com'; // Replace with your seller destination email
-const uniqueOrderNumber = `KINGS-${Date.now().toString().slice(-6)}${Math.floor(Math.random() * 900 + 100)}`;
+const uniqueOrderNumber = `ORDER-${Date.now().toString().slice(-6)}${Math.floor(Math.random() * 900 + 100)}`;
 
 
       const orderPayload = {
