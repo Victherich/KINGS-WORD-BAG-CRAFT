@@ -243,7 +243,7 @@ const handleRemovePromo = () => {
     try {
       const buyerEmail = currentUser?.email || userData?.email || '';
       // const sellerEmail = 'victorndu393@gmail.com'; // Replace with your seller destination email
-        const sellerEmail = 'admin@kingswordcraft.com'; // Replace with your seller destination email
+        const sellerEmail = 'kingswordcoutureandbagcrafts@gmail.com'; // Replace with your seller destination email
 const uniqueOrderNumber = `ORDER-${Date.now().toString().slice(-6)}${Math.floor(Math.random() * 900 + 100)}`;
 
 

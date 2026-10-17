@@ -173,7 +173,7 @@ export async function POST(request) {
       // but you can prepend the customer's name in the display string safely:
       from: `"${name} via Kings Word Bag Craft" <${process.env.SMTP_USER}>`,
       //  to: 'beesinterior@gmail.com', // The inbox receiving the leads
-       to: 'victherich@gmail.com',
+       to: 'kingswordcoutureandbagcrafts@gmail.com',
       replyTo: email,            // Clicking "Reply" will reply straight to the customer
       subject: `New Contact Inquiry: ${name}`,
       html: htmlContent,

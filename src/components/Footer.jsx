@@ -545,7 +545,7 @@ export default function Footer() {
           <FooterCol>
             <ColTitle>Get in Touch</ColTitle>
             <ContactInfo>
-              <p>Email: <span>admin@kingswordcraft.com</span></p>
+              <p>Email: <span>kingswordcoutureandbagcrafts@gmail.com</span></p>
               <p>Phone: <span>+234 813 237 1949</span></p>
               <p>Location: <span>Oluku/Ugbowo, Benin City, Edo State</span></p>
             </ContactInfo>
